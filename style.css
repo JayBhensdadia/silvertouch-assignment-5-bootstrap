@@ -1,0 +1,44 @@
+/* .app{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: scroll;
+} */
+
+
+.main-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+}
+
+
+/* input[type="text"]{
+    background: transparent;
+}
+
+
+input[type="number"]{
+    background: transparent;
+}
+
+
+input[type="tel"]{
+    background: transparent;
+}
+
+
+input[type="date"]{
+    background: transparent;
+}
+
+
+input[type="email"]{
+    background: transparent;
+}
+
+
+input[type="file"]{
+    background: transparent;
+} */
