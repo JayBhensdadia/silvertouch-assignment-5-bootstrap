@@ -16,14 +16,51 @@
 
 
 
-        <div class="main-container container">
-            <h1 class="mb-5 ">Shipping Registration</h1>
+        <div class="main-container container fw-bold text-black-50 ">
+            <h1 class="mb-5 text-black-50  ">Shipping Registration</h1>
 
             <!-- <div class="progress mb-5" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
                     <div class="progress-bar progress-bar-striped" style="width: 10%"></div>
                   </div> -->
 
             <form>
+
+                <!-- Pilot information  -->
+                <div class="container  mb-5">
+
+                    <legend>Pilot Information</legend>
+                    <hr>
+                    <div class="row mb-3">
+                        <div class="col-md-2">
+                            <label>Name</label>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="row mb-3">
+
+                        <div class="col">
+                            <label for="inputEmail4" class="form-label">Pilot License Number</label>
+                            <input type="text" class="form-control" id="inputEmail4">
+                        </div>
+
+                        <div class="col">
+                            <label for="inputEmail4" class="form-label">Pilot Contact Number</label>
+                            <input type="tel" class="form-control" id="inputEmail4">
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+
                 <!-- sender information  -->
                 <div class="container  mb-5">
 
@@ -178,7 +215,7 @@
                     <div class="row mb-3">
                         <div class="col-md-6">
                             <label for="inputCity" class="form-label">Container Number</label>
-                            <input type="number" class="form-control" id="inputCity">
+                            <input type="text" class="form-control" id="inputCity">
                         </div>
 
                         <div class="col-md-4">
@@ -236,11 +273,11 @@
                     </div>
 
                     <div class="row mb-3">
-                        <div class="col-md-2">
+                        <div class="col-md-3">
                             <label for="inputAddress" class="form-label">Departure Date</label>
                             <input type="date" class="form-control" id="inputAddress" placeholder="">
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-3">
                             <label for="inputAddress" class="form-label">Estimated Arrival Date</label>
                             <input type="date" class="form-control" id="inputAddress" placeholder="">
                         </div>

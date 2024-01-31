@@ -5,12 +5,28 @@
     overflow: scroll;
 } */
 
+body{
+    /* background: linear-gradient(to bottom left, rgb(169, 222, 255), white); */
+     background-image: url('./assets/pexels-pixabay-262353.jpg');
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* width: 100%; */
+    /* height: 100%; */
+
+
+}
+
 
 .main-container{
+
     margin-top: 20px;
     margin-bottom: 20px;
     border: 1px solid lightgray;
     border-radius: 15px;
+    background: hsla(0, 0%, 100%, 0.55);
+    backdrop-filter: blur(20px);
 }
 
 
